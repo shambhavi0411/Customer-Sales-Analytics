@@ -4,10 +4,10 @@ Exploratory Data Analysis on a retail sales dataset using Python (Pandas, Matplo
 # Problem Statement
 Retail businesses generate large volumes of transactional data but often struggle to convert it into actionable insight. This project analyzes a sales dataset to answer key business questions:
 
-Who are our customers? (gender, age, marital status, occupation)
-Where are our customers located, and which regions drive the most sales?
-Which product categories and products sell the most?
-What does our ideal/target customer profile look like?
+- Who are our customers? (gender, age, marital status, occupation)
+- Where are our customers located, and which regions drive the most sales?
+- Which product categories and products sell the most?
+- What does our ideal/target customer profile look like?
 
 The goal is to turn raw transaction-level data into a clear customer and sales profile that can support marketing, inventory, and business decisions.
 
