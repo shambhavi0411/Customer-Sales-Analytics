@@ -1,16 +1,12 @@
 SQL ANALYSIS - CUSTOMER SALES ANALYTICS
-============================================================
+
 Dataset: SalesData_Clean.csv | Records: 11,239 | Tool: SQL
 
 This file contains SQL queries used to replicate the Python EDA
 (Gender, Age, Marital Status, State, Occupation, Product Category)
 along with their outputs and insights.
 
-============================================================
-
-1. GENDER
-------------------------------------------------------------
-Question: What is the total sales amount by Gender?
+1. What is the total sales amount by Gender?
 
 SQL Query:
   SELECT "Gender", SUM("Amount") AS Total_Amount
@@ -20,17 +16,12 @@ SQL Query:
 
 Output:
   Gender  Total_Amount  
-  ----------------------
+  
   F       74,335,853    
   M       31,913,276    
-
 Insight: Most of the sales are from females.
 
-============================================================
-
-2. AGE
-------------------------------------------------------------
-Question: What is the total sales amount by Age Group?
+2. What is the total sales amount by Age Group?
 
 SQL Query:
   SELECT "Age Group", SUM("Amount") AS Total_Amount
@@ -40,7 +31,7 @@ SQL Query:
 
 Output:
   Age Group  Total_Amount  
-  -------------------------
+  
   26-35      42,613,442    
   36-45      22,144,994    
   18-25      17,240,732    
@@ -48,14 +39,9 @@ Output:
   51-55      8,261,477     
   55+        4,080,987     
   0-17       2,699,653     
-
 Insight: Most of the buyers are from the 26-35 age group.
 
-============================================================
-
-3. MARITAL STATUS
-------------------------------------------------------------
-Question: What is the total sales amount by Marital Status and Gender?
+3. What is the total sales amount by Marital Status and Gender?
 
 SQL Query:
   SELECT "Marital_Status", "Gender", SUM("Amount") AS Total_Amount
@@ -65,19 +51,14 @@ SQL Query:
 
 Output:
   Marital_Status  Gender  Total_Amount  
-  --------------------------------------
+ 
   Unmarried       F       43,786,646    
   Married         F       30,549,207    
   Unmarried       M       18,338,738    
   Married         M       13,574,538    
-
 Insight: Most of the buyers with high purchasing power are married women.
 
-============================================================
-
-4. STATE
-------------------------------------------------------------
-Question: Which are the top 15 states by total number of orders?
+4. Which are the top 15 states by total number of orders?
 
 SQL Query:
   SELECT "State", SUM("Orders") AS Total_Orders
@@ -88,7 +69,7 @@ SQL Query:
 
 Output:
   State             Total_Orders  
-  --------------------------------
+
   Uttar Pradesh     4,807         
   Maharashtra       3,810         
   Karnataka         3,240         
@@ -107,11 +88,7 @@ Output:
 
 Insight: Most of the orders are from Uttar Pradesh, Maharashtra, and Karnataka respectively.
 
-============================================================
-
-5. STATE (SALES AMOUNT)
-------------------------------------------------------------
-Question: Which are the top 15 states by total sales amount?
+5. Which are the top 15 states by total sales amount?
 
 SQL Query:
   SELECT "State", SUM("Amount") AS Total_Amount
@@ -122,7 +99,7 @@ SQL Query:
 
 Output:
   State             Total_Amount  
-  --------------------------------
+ 
   Uttar Pradesh     19,374,968    
   Maharashtra       14,427,543    
   Karnataka         13,523,540    
@@ -141,11 +118,7 @@ Output:
 
 Insight: Most of the sales/amount are also from Uttar Pradesh, Maharashtra, and Karnataka respectively.
 
-============================================================
-
-6. OCCUPATION
-------------------------------------------------------------
-Question: What is the total sales amount by Occupation?
+6. What is the total sales amount by Occupation?
 
 SQL Query:
   SELECT "Occupation", SUM("Amount") AS Total_Amount
@@ -155,7 +128,7 @@ SQL Query:
 
 Output:
   Occupation       Total_Amount  
-  -------------------------------
+ 
   IT Sector        14,755,079    
   Healthcare       13,034,586    
   Aviation         12,602,298    
@@ -174,11 +147,7 @@ Output:
 
 Insight: Most of the buyers are from IT, Healthcare, and Aviation sector.
 
-============================================================
-
-7. PRODUCT CATEGORY
-------------------------------------------------------------
-Question: What are the top 10 Product Categories by total sales amount?
+7. What are the top 10 Product Categories by total sales amount?
 
 SQL Query:
   SELECT "Product_Category", SUM("Amount") AS Total_Amount
@@ -189,7 +158,7 @@ SQL Query:
 
 Output:
   Product_Category       Total_Amount  
-  -------------------------------------
+  
   Food                   33,933,883    
   Clothing & Apparel     16,495,019    
   Electronics & Gadgets  15,643,846    
@@ -203,11 +172,7 @@ Output:
 
 Insight: Most of the sold products are from Food, Clothing & Apparel, and Electronics & Gadgets category.
 
-============================================================
-
-8. PRODUCT ID
-------------------------------------------------------------
-Question: What are the top 10 Products (Product_ID) by total number of orders?
+8. What are the top 10 Products (Product_ID) by total number of orders?
 
 SQL Query:
   SELECT "Product_ID", SUM("Orders") AS Total_Orders
@@ -218,7 +183,7 @@ SQL Query:
 
 Output:
   Product_ID  Total_Orders  
-  --------------------------
+  
   P00265242   127           
   P00110942   116           
   P00237542   91            
@@ -231,5 +196,3 @@ Output:
   P00110842   74            
 
 Insight: These are the individual best-selling products by order volume.
-
-============================================================
