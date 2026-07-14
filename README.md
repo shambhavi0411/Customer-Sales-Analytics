@@ -32,8 +32,8 @@ Overall: The ideal customer is a female, aged 26–35, from UP/Maharashtra/Karna
 
 # Files
 
--  [Python analysis file.ipynb](Python%20analysis%20file.ipynb) - Python EDA and data cleaning
--  [SQL Queries.sql](SQL%20Queries.sql) - SQL queries for business analysis
--  [SQL queries with insights.txt](SQL%20queries%20with%20insights.txt) - SQL query outputs and insights
+-  [Python_analysis.ipynb](Python%20analysis%20file.ipynb) - Python EDA and data cleaning
+-  [SQL_Queries.sql](SQL%20Queries.sql) - SQL queries for business analysis
+-  [SQL_queries_with_insights.txt](SQL%20queries%20with%20insights.txt) - SQL query outputs and insights
 -  [Customer_clean_data.csv](Customer_clean_data.csv) - Cleaned dataset
 -  [Customer_raw_data.csv](Customer_raw_data.csv) - Raw dataset
