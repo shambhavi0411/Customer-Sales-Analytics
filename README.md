@@ -30,6 +30,16 @@ The goal is to turn raw transaction-level data into a clear customer and sales p
 
 Overall: The ideal customer is a female, aged 26–35, from UP/Maharashtra/Karnataka, working in IT/Healthcare/Aviation, most likely to buy Food, Clothing, or Electronics.
 
+## Visualizations
+### Gender-wise Sales
+![Gender](Images/Gender.png)
+### State-wise Sales
+![States](Images/States.png)
+### Age-wise Sales
+![Age Group](Images/Age%20Group.png)
+### Marital-status-wise Sales
+![Married people](Images/Married%20people.png)
+
 # Files
 
 -  [Python_analysis.ipynb](Python_analysis.ipynb) - Python EDA and data cleaning
