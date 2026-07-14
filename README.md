@@ -39,6 +39,8 @@ Overall: The ideal customer is a female, aged 26–35, from UP/Maharashtra/Karna
 ![Age Group](Images/Age%20Group.png)
 ### Marital-status-wise Sales
 ![Married people](Images/Married%20people.png)
+### Product-wise Sales
+![Product](Images/Product.png)
 
 # Files
 
