@@ -38,6 +38,4 @@ Overall: The ideal customer is a female, aged 26–35, from UP/Maharashtra/Karna
 -  [Customer_clean_data.csv](Customer_clean_data.csv) - Cleaned dataset
 -  [Customer_raw_data.csv](Customer_raw_data.csv) - Raw dataset
 
-# Author
-Shambhavi Mishra
-**LinkedIn**(https://www.linkedin.com/in/shambhavi-mishra-a22281319/) | **GitHub**(https://github.com/shambhavi0411)
+**Connect with Me:** [LinkedIn](https://www.linkedin.com/in/shambhavi-mishra-a22281319/) • [GitHub](https://github.com/shambhavi0411)
