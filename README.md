@@ -1,4 +1,4 @@
-# Customer Sales Analytics
+# Customer Sales Analytics- Python|SQL
 Exploratory Data Analysis on a retail sales dataset using Python (Pandas, Matplotlib, Seaborn) and SQL, uncovering customer buying patterns across gender, age, location, occupation, and product category.
 
 # Problem Statement
